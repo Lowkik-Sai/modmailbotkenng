@@ -111,7 +111,7 @@ class Modmail(commands.Bot):
         print('Modmail connected!')
         status = os.getenv('STATUS')
         if status:
-            print(f'Setting Status to Playing With My Owner Rock Star')
+            print(f'Setting Status to {status}')
         else:
             print('No status set.')
 
